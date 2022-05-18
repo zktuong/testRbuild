@@ -108,5 +108,5 @@ jobs:
 
     - name: Test if R dependencies are installed properly      
       run: |
-        Rscript check/vdj.R
+        Rscript check/immcantation.R
       shell: bash -l {0}
